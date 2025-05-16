@@ -1,0 +1,131 @@
+* {
+
+  box-sizing: border-box;
+
+}
+body {
+
+  font-family: 'Arial', sans-serif;
+
+}
+.scene {
+     min-height: 450px;
+     position: relative;
+     background-color: blue;
+     transform: translate3d(0, 0, 0);
+     top: 0;
+     left: 0;
+ }
+ 
+.level-1 {
+    animation: animation_fg linear 30s infinite both;
+    background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон1.png') 0 100% repeat-x;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 976px;
+}
+
+.level-2 {
+    animation: animation_fg linear 55s infinite both;
+    background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон2.png') 0 100% repeat-x;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 1302px;
+}
+
+.lelel-3 {
+    animation: animation_fg linear 75s infinite both;
+    background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон3.png') 0 100% repeat-x;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 1766px;
+}
+
+.level-4 {
+    animation: animation_fg linear 95s infinite both;
+    background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон4.png') 0 100% repeat-x;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 834px;
+}
+
+.level-5 {
+    animation: animation_fg linear 120s infinite both;
+    background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон5.jpg') 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 1302px;
+}
+.object-1 {
+ background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон1.png') 0 100% no-repeat;
+ z-index: 1;
+ position: absolute;
+ bottom: 100px;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-size: auto 75px;
+ animation: animation-level_object-1 linear 10s infinite both;
+}
+
+.object-2 {
+ background: url('https://raw.githubusercontent.com/annasinkova/zadanie/refs/heads/main/фон2.png') 0 100% no-repeat;
+ z-index: 1;
+ position: absolute;
+ bottom: 100px;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-size: auto 75px;
+ animation: animation-level_object-2 linear 15s infinite both;
+}
+@keyframes animation_fg {
+
+  0% {
+
+    background-position: 2765px 100%;
+
+  }
+
+  100% {
+
+    background-position: 550px 100%;
+
+  }
+
+}
+@keyframes animation_moving-object1 {
+
+  0% {
+
+    background-position: -300px 100%;
+
+  }
+
+  100% {
+
+    background-position: 2000px 100%;
+
+  }
+
+}
