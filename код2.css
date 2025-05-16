@@ -1,0 +1,18 @@
+header {
+   background-color: pitch-range;
+}
+footer {
+   background-color: silver;
+}
+.header .title-bar {
+  background-color: green;
+}
+#wrap {
+	background-color: pink;
+}
+.submenu.menu.vertical {
+	background-color: blue;
+}
+.row.expanded.callout.secondary {
+	background-color: red;
+}
